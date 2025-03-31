@@ -1,0 +1,4 @@
+sudo tail -f tomcat1/logs/localhost_access_log.*.txt
+sudo tail -f tomcat/logs/localhost_access_log.*.txt
+tail -f /var/log/nginx/domain2.access.log
+tail -f /var/log/nginx/domain1.access.log
